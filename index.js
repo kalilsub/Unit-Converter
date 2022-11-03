@@ -28,7 +28,7 @@ btnEl.addEventListener("click", () => {
     const [meter, litres, kilo, feet, gall, pounds] = convert(inputEl.value)
     
     
-    lenEl.innerHTML = `${inputEl.value} meteres = ${meter} feet | 
+    lenEl.innerHTML = `${inputEl.value} meters = ${meter} feet | 
                         ${inputEl.value} feet =  ${feet} meters`
                         
     volEl.innerHTML = `${inputEl.value} litres = ${litres} gallons | 
